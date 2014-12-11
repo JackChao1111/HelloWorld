@@ -11,7 +11,12 @@ public class HelloWorld implements HelloInterface {
 
 	@Override
 	public void sayHello() {
-		System.out.println("HelloWorld");
+		System.out.println("Hello World");
+	}
+
+	@Override
+	public void sayBye() {
+		System.out.println("Bye World ");
 	}
 
 }
