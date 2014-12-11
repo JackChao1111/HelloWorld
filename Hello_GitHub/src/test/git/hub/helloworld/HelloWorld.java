@@ -19,4 +19,9 @@ public class HelloWorld implements HelloInterface {
 		System.out.println("Bye World ");
 	}
 
+	@Override
+	public void sayNo() {
+		System.out.println("Test Branch NO!");
+	}
+
 }
