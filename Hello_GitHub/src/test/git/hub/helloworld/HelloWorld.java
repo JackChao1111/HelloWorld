@@ -1,12 +1,16 @@
 package test.git.hub.helloworld;
 
-public class HelloWorld {
-
+public class HelloWorld implements HelloInterface {
 	/**
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		HelloInterface h= new HelloWorld();
+		h.sayHello();
+	}
+
+	@Override
+	public void sayHello() {
 		System.out.println("HelloWorld");
 	}
 
